@@ -9,6 +9,10 @@ const StyledFilter = styled.div`
   padding: 0.4rem;
   display: flex;
   gap: 0.4rem;
+
+  @media (max-width: 991px) {
+    margin-bottom: 10px;
+  }
 `;
 
 const FilterButton = styled.button`

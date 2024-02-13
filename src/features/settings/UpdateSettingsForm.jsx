@@ -14,6 +14,10 @@ const ButtonSave = styled.div`
   grid-template-columns: 24rem 1fr 1.2fr;
   gap: 2.4rem;
   padding: 1.2rem 0;
+
+  @media (max-width: 991px) {
+    display: block;
+  }
 `;
 
 function UpdateSettingsForm() {

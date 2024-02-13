@@ -21,6 +21,7 @@ const Main = styled.main`
 
   @media (max-width: 991px) {
     margin-top: 55px;
+    padding: 4rem 1rem 6.4rem;
   }
 `;
 
