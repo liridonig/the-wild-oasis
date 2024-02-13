@@ -188,8 +188,8 @@ img {
 
 
 .open-menu {
-  transform: translateX(0);
-  transition: all .4s;
+  transform: translateX(0) !important;
+  transition: all .4s !important; 
 }
 
 `;

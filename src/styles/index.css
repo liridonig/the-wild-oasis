@@ -1,3 +1,4 @@
 .open-menu {
-  transform: translateX(0);
+  transform: translateX(0) !important;
+  transition: all 0.4s !important;
 }
