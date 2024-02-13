@@ -185,6 +185,13 @@ img {
   /* For dark mode */
   filter: grayscale(var(--image-grayscale)) opacity(var(--image-opacity));
 }
+
+
+.open-menu {
+  transform: translateX(0);
+  transition: all .4s;
+}
+
 `;
 
 export default GlobalStyles;
