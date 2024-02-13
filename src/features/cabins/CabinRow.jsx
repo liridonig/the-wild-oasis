@@ -19,6 +19,11 @@ const Img = styled.img`
   object-fit: cover;
   object-position: center;
   transform: scale(1.5) translateX(-7px);
+
+  @media (max-width: 767px) {
+    width: 200px;
+    transform: unset;
+  }
 `;
 
 const Cabin = styled.div`

@@ -8,6 +8,10 @@ const StyledConfirmDelete = styled.div`
   flex-direction: column;
   gap: 1.2rem;
 
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+
   & p {
     color: var(--color-grey-500);
     margin-bottom: 1.2rem;
@@ -17,6 +21,10 @@ const StyledConfirmDelete = styled.div`
     display: flex;
     justify-content: flex-end;
     gap: 1.2rem;
+
+    @media (max-width: 767px) {
+      justify-content: flex-start;
+    }
   }
 `;
 

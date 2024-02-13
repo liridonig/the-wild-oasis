@@ -31,6 +31,9 @@ const Stacked = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+  @media (max-width: 767px) {
+    margin: 10px 0;
+  }
 
   & span:first-child {
     font-weight: 500;
@@ -45,16 +48,18 @@ const Stacked = styled.div`
 const Amount = styled.div`
   font-family: "Sono";
   font-weight: 500;
+
+  @media (max-width: 767px) {
+    margin-top: 10px;
+  }
 `;
 
 function BookingRow({
   booking: {
     id: bookingId,
-    created_at,
     startDate,
     endDate,
     numNights,
-    numGuests,
     totalPrice,
     status,
     guests: { fullName: guestName, email },

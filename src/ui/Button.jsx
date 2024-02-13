@@ -55,6 +55,10 @@ const Button = styled.button`
 
   ${(props) => sizes[props.size]}
   ${(props) => variations[props.variation]}
+
+  @media (max-width: 991px) {
+    margin-top: 15px;
+  }
 `;
 
 Button.defaultProps = {
