@@ -2,7 +2,6 @@ import { useState } from "react";
 import styled from "styled-components";
 import Logo from "./Logo";
 import MainNav from "./MainNav";
-import Uploader from "../data/Uploader";
 import { IoIosMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
 
@@ -56,7 +55,6 @@ function Sidebar() {
       <StyledSidebar className={`${isOpen ? "open-menu" : ""}`}>
         <Logo />
         <MainNav closeMobileMenu={closeMobileMenu} />
-        <Uploader />
       </StyledSidebar>
     </>
   );

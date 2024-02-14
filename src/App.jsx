@@ -16,6 +16,7 @@ import AppLayout from "./ui/AppLayout";
 import Booking from "./pages/Booking";
 import Checkin from "./pages/Checkin";
 import ProtectedRoute from "./ui/ProtectedRoute";
+import Uploader from "./data/Uploader";
 import { DarkModeProvider } from "./context/DarkModeContext";
 
 const queryClient = new QueryClient({
@@ -51,6 +52,7 @@ function App() {
               <Route path="users" element={<Users />} />
               <Route path="settings" element={<Settings />} />
               <Route path="account" element={<Account />} />
+              <Route path="upload" element={<Uploader />} />
             </Route>
             <Route path="login" element={<Login />} />
             <Route path="*" element={<PageNotFound />} />

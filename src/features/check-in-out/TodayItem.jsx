@@ -16,6 +16,10 @@ const StyledTodayItem = styled.li`
   padding: 0.8rem 0;
   border-bottom: 1px solid var(--color-grey-100);
 
+  @media (max-width: 767px) {
+    grid-template-columns: 90px 30px 170px 70px 90px;
+  }
+
   &:first-child {
     border-top: 1px solid var(--color-grey-100);
   }

@@ -29,6 +29,10 @@ const TodayList = styled.ul`
   overflow: scroll;
   overflow-x: hidden;
 
+  @media (max-width: 767px) {
+    overflow-x: scroll;
+  }
+
   /* Removing scrollbars for webkit, firefox, and ms, respectively */
   &::-webkit-scrollbar {
     width: 0 !important;
